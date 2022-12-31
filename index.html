@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sending Serverless</title>
+    <script src="formToApi.js"></script>
+  </head>
+  <body
+    style="background-color: whitesmoke; text-align: justify; padding: 20px"
+  >
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif">
+      Send a message to a verified Email or SMS
+    </h1>
+    <form>
+      <div>
+        <label>Message:</label>
+        <input
+          type="text"
+          name="message"
+          placeholder="Message you want to send"
+        />
+        <br /><br />
+        <label>Email:</label>
+        <input name="email" />
+        <button onclick="formToApi(event,'email')">Send an Email</button>
+        <br /><br />
+        <label>SMS:</label>
+        <input name="sms" placeholder="Include Area Code" />
+        <button onclick="formToApi(event,'sms')">Send a SMS</button>
+      </div>
+    </form>
+  </body>
+</html>
