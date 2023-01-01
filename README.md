@@ -12,3 +12,5 @@ AWS Services Used:
  - Step Functions
  - SES
  - SNS
+ 
+![infrastructure](https://user-images.githubusercontent.com/120144929/210161760-5722bef8-0578-4f33-8a03-359134800cc1.png)
